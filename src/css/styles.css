@@ -39,10 +39,6 @@ gap: 12px;
 
 }
 
-form {
-  margin-top: 60px;
-  margin-left: 200px;
-}
 input {
   width: 272px;
   height: 40px;
@@ -136,7 +132,11 @@ font-size: 14px;
 }
 
 .form {
+margin-top: 50px;
+justify-content: space-between;
 text-align: center;
+
+
 }
 
 .form-input {
