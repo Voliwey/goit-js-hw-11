@@ -34,13 +34,8 @@ export function renderImages(data) {
 
         galleryList.insertAdjacentHTML('beforeend', galleryMarkup);
 
-        const lightbox = new SimpleLightbox('.gallery a', {
-            captionsData: 'alt',
-        });
-
         lightbox.refresh();
 
-        // Очищаем значение поля ввода после рендера картинок
         input.value = '';
     }
 }
@@ -49,4 +44,3 @@ export function renderImages(data) {
 
 
 const lightbox = new SimpleLightbox('.gallery a', { /* options */ });
-lightbox.refresh();
